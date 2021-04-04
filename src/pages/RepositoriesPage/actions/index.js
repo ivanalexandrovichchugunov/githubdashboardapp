@@ -1,0 +1,25 @@
+import { createAction } from "redux-actions";
+
+export const GET_GITHUB_REPOSITORIES_REQUEST = createAction(
+  "GET_GITHUB_REPOSITORIES_REQUEST"
+);
+export const GET_GITHUB_REPOSITORIES_SUCCESS = createAction(
+  "GET_GITHUB_REPOSITORIES_SUCCESS"
+);
+export const GET_GITHUB_REPOSITORIES_FAIL = createAction(
+  "GET_GITHUB_REPOSITORIES_FAIL"
+);
+
+export const GET_SEARCHED_REPOSITORIES_REQUEST = createAction(
+  "GET_SEARCHED_REPOSITORIES_REQUEST"
+);
+export const GET_SEARCHED_REPOSITORIES_SUCCESS = createAction(
+  "GET_SEARCHED_REPOSITORIES_SUCCESS"
+);
+export const GET_SEARCHED_REPOSITORIES_FAIL = createAction(
+  "GET_SEARCHED_REPOSITORIES_FAIL"
+);
+
+export const UPDATE_INPUT_VALUE = createAction("UPDATE_INPUT_VALUE");
+
+export const UPDATE_CURRENT_PAGE_ID = createAction("UPDATE_CURRENT_PAGE_ID");
